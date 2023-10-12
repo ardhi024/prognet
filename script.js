@@ -40,7 +40,7 @@ function validateForm() {
     elem.classList.add('input-2');
     elem.classList.remove('input-1');
   } else {
-    var regex = /^[0-9]\d{10,}$/;
+    var regex = /^\d{10,}$/;
     if (regex.test(nim) === false) {
       printError('nimErr', 'Tolong masukkan nim yang valid');
       var elem = document.getElementById('nim');
