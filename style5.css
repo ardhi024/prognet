@@ -1,0 +1,19 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('bg-4.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: right top;
+  font-family: sans-serif;
+}
+.navbar {
+  background-color: #6b2e05;
+}
+#footer {
+  background-color: #6b2e05;
+}
+#footer img {
+  width: 30%;
+  position: relative;
+  top: 100%;
+  left: 100%;
+}
